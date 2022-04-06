@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+}
+#mainScreen{
+    background: rgb(240, 141, 141);
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 13px;
+    border-radius: 2%;
+}
+header img{
+    width: 150px;
+    margin-top: 15px;
+}
+header{
+    text-align: center;
+    height: 300px;
+
+    
+}
+header h2{
+    margin-top: 50px;
+    color: rgb(252, 252, 252);
+}
+header p{
+    color: rgba(237, 241, 248, 0.87);
+   
+}
+#content{
+    background-color: rgb(86, 156, 218);
+    border-radius: 5% 5% 10% 10%;
+    height: 300px;
+}
+#contente{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+#contente img{
+    width: 45px;
+    height: 45px;
+    margin-top: 14px;
+    padding: 13px;
+
+}
+#volume{
+    text-align: center;
+}
+#root{
+    max-width: 200px;
+    
+    border-radius: 13%;
+    margin-top: 150px;
+}
+#btns{
+    text-align: center;
+    
+}
+input[type=range]{
+    -webkit-appearance: none;
+    background-color: rgba(109, 103, 103, 0.349);
+    height: 3px;
+    width: 100%;
+}
+#btns button{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-top: 5px;
+    -webkit-appearance: none;
+}
+#color1{
+    background-color:rgb(207, 83, 93);
+}
+#color2{
+    background-color: rgb(73, 189, 224);
+}
+#color3{
+    background-color:  rgb(22, 23, 24);
+}
+#colors{
+    margin-top: 13px;
+   
+}
+#icons{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 16px;
+    
+}
+#icons img{
+    width: 24px;
+}
+h2{
+    font-size: 16px;
+}
+#footer{
+    text-align: center;
+    color: white;
+    
+    padding: 5px;
+    
+    
+   
+}

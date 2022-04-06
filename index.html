@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Radio player</title>
+</head>
+<body>
+    <main id="mainScreen">
+        <header>
+            <img src="img/icon.png">
+            <h2>Radio Player</h2>
+            <p id="name">BBC arabic</p>
+        </header>
+        <div id="content">
+            <article id="contente">
+                <img src="img/back.png" id="back">
+                <img src="img/play.png" id="play_pause">
+                 <img src="img/next.png" id="next">
+                <audio src="music.mp3" id="audio"></audio>
+            </article>
+            <article id="volume">
+                <h2>volume</h2>
+                <input type="range" id="range_volume">
+                <h2>speed</h2>
+                <input type="range" id="range_speed" max="200" min="0">
+            </article>
+            <article id="btns">
+                <h2 id="colors">colors</h2>
+                <button id="color1"></button>
+                <button id="color2"></button>
+                <button id="color3"></button>
+                
+            </article>
+            <article id="icons">
+               
+                <a href=""><img src="img/linkIn.png"></a>
+                <a href=""><img src="img/getHub.png"></a>
+                <a href="email.html"><img src="img/email.png"></a>
+            </article>
+            <article id="footer">
+                © 2022 Copyright: EBety Ebeti
+            </article>
+        </div>
+
+
+    </main>
+   
+
+    
+    <script src="javascript/color.js"></script>
+    <script src="javascript/script.js"></script>
+    <script src="javascript/volume.js"></script>
+</body>
+</html>
